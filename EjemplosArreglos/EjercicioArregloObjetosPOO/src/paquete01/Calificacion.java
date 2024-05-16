@@ -20,6 +20,10 @@ public class Calificacion {
         nombreMateria = nombre;
         profesor = p;
     }
+    public Calificacion(double n, String nombre) {
+        nota = n;
+        nombreMateria = nombre;
+    }
 
     public void establecerNota(double n) {
         nota = n;
